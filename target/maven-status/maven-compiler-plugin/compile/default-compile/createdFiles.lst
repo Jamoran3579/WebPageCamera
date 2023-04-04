@@ -1,0 +1,6 @@
+com\example\SimpleHttpServer$HelloWorldController.class
+com\example\UserDetailsServiceImpl.class
+com\example\SimpleHttpServer$MvcConfig.class
+com\example\SecurityConfig.class
+com\example\SimpleHttpServer$LoginPageController.class
+com\example\SimpleHttpServer.class
