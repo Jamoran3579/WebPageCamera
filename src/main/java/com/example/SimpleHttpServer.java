@@ -39,10 +39,10 @@ public class SimpleHttpServer {
 
     @PostMapping("/login")
     public String login(@RequestParam String username, @RequestParam String password) {
-      if ("user1".equals(username) && "password1".equals(password)) {
-        return "redirect:/";
+      if ("Jason".equals(username) && "Jayo3579".equals(password)) {
+        return "redirect:/stream";  // Redirect to the camera stream endpoint
       } else if ("user2".equals(username) && "password2".equals(password)) {
-        return "redirect:/";
+        return "redirect:/stream";  // Redirect to the camera stream endpoint
       } else {
         return "redirect:/login?error";
       }
